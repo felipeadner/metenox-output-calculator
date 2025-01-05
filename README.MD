@@ -57,6 +57,7 @@ def calculate_units(moon_utilization_rate_percent, mineral1_proportion, mineral2
         "Mineral #4": int(mineral4_units)
     }
 
+```
 
 ### Flask Web Application Code
 
