@@ -57,7 +57,8 @@ def calculate_units(moon_utilization_rate_percent, mineral1_proportion, mineral2
         "Mineral #4": int(mineral4_units)
     }
 
-Flask Web Application Code
+
+### Flask Web Application Code
 
 This is the code for the Flask web application that allows the user to upload a CSV file and receive a processed CSV file as the result.
 
@@ -84,7 +85,7 @@ if __name__ == '__main__':
 
 HTML Form (index.html)
 
-The HTML form allows users to upload the CSV file:
+### The HTML form allows users to upload the CSV file:
 
 <!DOCTYPE html>
 <html lang="en">
@@ -105,15 +106,15 @@ The HTML form allows users to upload the CSV file:
 
 ---
 
-How to Run
+## How to Run
 
-1. Install Dependencies
+### 1. Install Dependencies
 
 Make sure to install the required dependencies first:
 
 pip install -r requirements.txt
 
-2. Start the Flask Application
+### 2. Start the Flask Application
 
 Run the Flask application with the following command:
 
@@ -121,7 +122,7 @@ python app.py
 
 This will start the web application on http://127.0.0.1:5000/.
 
-3. Upload the CSV File
+### 3. Upload the CSV File
 
 Go to the application in your browser and upload the CSV file. The file should have the following columns:
 
@@ -138,14 +139,14 @@ Mineral Name1-4: The names of the minerals.
 Mineral Proportion1-4: The proportions of each mineral.
 
 
-4. Download the Result
+### 4. Download the Result
 
 Once the file is uploaded, the system will process it, calculate the output, and return the result as a downloadable CSV file.
 
 
 ---
 
-CSV File Format
+## CSV File Format
 
 The CSV file should have the following columns:
 
