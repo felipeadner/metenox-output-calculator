@@ -63,6 +63,8 @@ def calculate_units(moon_utilization_rate_percent, mineral1_proportion, mineral2
 
 This is the code for the Flask web application that allows the user to upload a CSV file and receive a processed CSV file as the result.
 
+
+```python
 from flask import Flask, request, render_template, send_file
 import pandas as pd
 from io import StringIO
@@ -86,8 +88,14 @@ if __name__ == '__main__':
 
 HTML Form (index.html)
 
+
+```
+
 ### The HTML form allows users to upload the CSV file:
 
+
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -104,6 +112,8 @@ HTML Form (index.html)
 </body>
 </html>
 
+
+```
 
 ---
 
